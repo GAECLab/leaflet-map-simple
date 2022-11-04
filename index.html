@@ -19,7 +19,7 @@
 <body>
 
   <!-- Display the map and title with HTML division tags  -->
-  <div id="map-title">EDIT map title</div>
+  <div id="map-title">Hartford Map</div>
   <div id="map"></div>
 
   <!-- Create the interactive map content with JavaScript (.js) -->
@@ -41,8 +41,12 @@
   }).addTo(map);
 
   /* Display a point marker with pop-up text */
-  L.marker([41.77, -72.69]).addTo(map) // EDIT marker coordinates
-  .bindPopup("Insert pop-up text here"); // EDIT pop-up text message
+  L.marker([35.77, -78.65]).addTo(map) // EDIT marker coordinates
+  .bindPopup("My Hood"); // EDIT pop-up text message
+
+    /* Display a point marker with pop-up text */
+    L.marker([35.7818, -78.6763]).addTo(map) // EDIT marker coordinates
+  .bindPopup("Jordan Hall"); // EDIT pop-up text message
 
   </script>
 </body>
